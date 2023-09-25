@@ -1,0 +1,47 @@
+
+1. Order list
+
+<order data="2022-10-19" time="18:20:00">
+    <client>
+        <clientName>
+            <firstname>Ion</firstname>
+            <lastname>Bostan</lastname>
+            <patronymic>Vasile</patronymic>
+        </clientName>
+        <address city="Chisinau" street="Cuza Voda" number="20" apartment="56"></address> </address>
+        <contactNumber>078007584</contactNumber>
+        <email>ion.bostan@gmail.com</email>
+    </client>
+
+    <Items>
+        <item>
+            <name>Pizza Margherita</name>
+            <Unitprice currency="MDL">110</Unitprice>
+            <quantity>3</quantity>
+        </item>
+        <item>
+            <name>Spring Salad</name>
+            <Unitprice currency="MDL">70</Unitprice>
+            <quantity>3</quantity>
+        </item>
+        <item>
+            <name>Paulaner beer unfiltered</name>
+            <Unitprice currency="MDL">65</Unitprice>
+            <quantity>3</quantity>
+        </item>
+    </Items>
+    
+    <totalOrder currency="MDL">735</totalOrder>
+
+    <payment>
+        <option>Online</option>
+        <option>Cash at delivery</option>
+        <option>Card at delivery</option>
+    </payment>
+
+    <delivery data="2022-10-19" time="19:50:20">
+    <deliveryaddress>Chisinau, str.Cuza Voda 20, ap.56</deliveryaddress>
+    <aditionalinfo></aditionalinfo>
+    </delivery>
+
+</order>

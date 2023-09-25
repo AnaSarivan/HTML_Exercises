@@ -1,0 +1,58 @@
+
+## TASKS
+
+1. TOP 5 CLASSIC ROCK SONGS
+
+<list5>
+   <song>
+     <name>Lazy Sunday</name>
+     <band>The Small Faces</band>
+     <year>1968</year>
+   </song>
+   <song>
+     <name>Strange Magic</name>
+     <band>Electric Light Orchestra</band>
+     <year>1975</year>
+   </song>
+   <song>
+     <name>Another Day in Paradise</name>
+     <band>Phil Collins</band>
+     <year>1989</year>
+   </song>
+   <song>
+     <name>End of the Line</name>
+     <band>Traveling Wilburys</band>
+     <year>1988</year>
+   </song>
+   <song>
+     <name>Alcohol</name>
+     <band>The Kinks</band>
+     <year>1971</year>
+   </song>
+</list5>
+
+
+2. Children's book
+
+<children-book>
+   <collection>Printesa Urbana</collection>
+   <title>IMPREUNA Solutii de joaca si iubire la probleme mici si mari</title>
+   <author>Ioana Chicet-Macoveiciuc</author>
+   <illustrator>Lavinia Trifan</illustrator>
+   <contents>
+     <chapter1>Familia Pofticiosilor</chapter1>
+       <page>2 to 5</page>
+     <chapter2>Dragonul Nervosilor</chapter2>
+       <page>5 to 14</page>
+     <chapter3>Locul in care afli lucruri noi</chapters>
+       <page>15 to 27</page>
+     <chapter4>Eu spun adevarul si atunci cand spun minciuni</chapter4>
+        <page>28 to 34</page>
+     <chapter5>Copiii se transforma uneori in cavaleri razboinici</chapter5>
+        <page>35 to 47</page>
+   </contents>
+</children-book>
+
+
+3. 
+

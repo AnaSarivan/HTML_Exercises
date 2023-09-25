@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form action="confirmed.html">
+            <h1>Create an account</h1>
+            <!--6 group inputs/selects -> fieldset
+                first section: personal data
+                second section: course selection
+                7***. move the form in -> a table
+                Hint:the table Hierarchy must be respected!-->
+            <fieldset>
+                <legend><b>Personal data:</b></legend>
+                Your full name: <input type="text" required /><br/>
+                Your phone num.: <input type="text" required /><br/>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend><b>Course selection:</b></legend>
+                Choose the training program: 
+            <br/>
+            <select>
+                <option>HTML Basics Couerse</option>
+                <option>CSS Basics Course</option>
+            </select>
+            
+            <br/>
+            <!--5. group the option select ... morning/evening  -->
+            <select>
+                <optgroup label="morning">
+                    <option>09:00</option>
+                    <option>10:00</option>
+                </optgroup>
+                <optgroup label="evening">
+                    <option>19:00</option>
+                    <option>20:00</option>
+                </optgroup>
+            </select>
+            </fieldset>
+
+            <br/>
+            <p>I accept the <a href="terms.html" target="_blank">terms</a> and conditions!</p>
+            <label for="yes">Yes</label>
+            <input type="checkbox" id="yes" required name="option" />
+            <br/>
+            <label for="no">No</label>
+            <input type="checkbox" id="no" name="option" />
+            <!--Chekbox
+            1."I accept the terms and conditions"
+            2. Make it required: checkbox, full name, phone
+            3. the word "terms" tag <a> terms.html page with h1 and hrml lists
+            4. To open the tag <a> in a new blank find the attribute = target="_blank"
+            5. -->
+            <hr/>
+            <button>APPLY</button>
+
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,69 @@
+
+1. Apple cake - the recipe as XML
+
+<cake-recipe>
+  <ingredients>
+    <item>
+      <name>Greek yogurt</name>
+      <quantity unit="grams">250</quantity>  
+    </item>
+    <item>
+      <name>Sugar</name>
+      <quantity unit="grams">200</quantity>  
+    </item>
+    <item>
+      <name>Flour</name>
+      <quantity unit="grams">300</quantity>  
+    </item>
+    <item>
+      <name>Butter</name> <!--Butter at room temperature-->
+      <quantity unit="grams">100</quantity>  
+    </item>
+    <item>
+      <name>Eggs</name>
+      <quantity>3</quantity>  
+    </item>
+    <item>
+      <name>Apples</name>
+      <quantity unit="grams">600</quantity>  
+    </item>
+    <item>
+      <name>Baking powder</name>
+      <quantity unit="grams">10</quantity>  
+    </item>
+    <item>
+      <name>Vanilla essence</name>
+      <quantity unit="teaspoon">1</quantity>  
+    </item>
+    <item>
+      <name>Almond flakes</name>
+      <quantity unit="spoon">1</quantity>  
+    </item>
+  </ingredients>
+  
+  <kitchenware>
+    <names>Oven</names>
+    <names>Large bowl</names>
+    <names>Mixer</names>
+    <names>Spatula</names>
+    <names>Knife</names>
+    <names>Round cake pan</names>
+  </kitchenware>
+
+  <making-process>
+    <step1>Heat the oven to 170 degrees Celsius</step1>
+    <step2>Mix the butter together with the sugar in a large bowl until they are well incorporated</step2>
+    <step3>Add the eggs one by one, then continue mixing for about 3-4 minutes until the texture becomes fluffy</step3>
+    <step4>Add vanilla and yogurt, mix everything with a spatula</step4>
+    <step5>Add flour and baking powder, mix with a spatula until all the ingredients are incorporated</step5>
+    <step6>Dice the apples. Add them to the batter, mix until combined with the batter</step6>
+    <step7>Pour the batter into the round cake pan and sprinkle the almond flakes over the entire surface</step7>
+    <step8>Put the pan in the oven and bake for 50 minutes</step8>
+    <step9>Remove the pan from the oven<step9>
+  </making-process>
+
+</cake-recipe>
+
+
+
+

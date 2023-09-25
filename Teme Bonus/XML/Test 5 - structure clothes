@@ -1,0 +1,36 @@
+
+1. Imagine a person/man
+
+<clothes>
+  <outerwear>
+    <item>Coat</item>
+    <item>Hat</item>
+    <item>Glove</item>
+    <item>Footwear</item>
+  </outerwear>
+  <basic-clothes>
+    <item>Suit</item>
+    <item>Shirt</item>
+    <item>Tie</item>
+  </basic-clothes>
+  <accessory>
+    <item>Tie pin</item>
+    <item>Cufflinks</item>
+    <item>Pocket square</item>
+  </accessory>
+  <underwear>
+    <item>T-shirt</item>
+    <item>Panties</item>
+    <item>Socks</item>
+  </underwear>
+</clothes>
+
+2. Traversing structure
+
+- dressing:
+
+--> Underwear --> Basic-Clothes --> Accessory --> Outerwear
+
+- undressing:
+
+--> Outerwear --> Accessory -->Basic-Clothes --> Underwear.
